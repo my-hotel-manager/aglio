@@ -1,6 +1,6 @@
 {
-  "name": "aglio",
-  "version": "2.3.0",
+  "name": "swaglio",
+  "version": "2.4.0",
   "description": "An API Blueprint renderer with theme support",
   "main": "lib/main.js",
   "bin": {
@@ -16,7 +16,7 @@
       "data-cover-never": "node_modules"
     }
   },
-  "author": "Daniel G. Taylor",
+  "author": "Daniel G. Taylor & Hotel Manager",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -38,8 +38,8 @@
     "aglio-theme-olio": "^1.6.3",
     "chokidar": "^1.4.1",
     "cli-color": "^1.1.0",
+    "drafter.js": "^1.0.0",
     "pretty-error": "^1.2.0",
-    "drafter": "^1.0.0",
     "serve-static": "^1.10.0",
     "socket.io": "^1.3.7",
     "yargs": "^3.31.0"
@@ -48,6 +48,7 @@
     "async": "^1.5.0",
     "coffeelint": "^1.14.2",
     "grunt": "~0.4.5",
+    "grunt-cli": "^1.3.2",
     "grunt-coffeelint": "0.0.13",
     "grunt-contrib-coffee": "^0.13.0",
     "grunt-mocha-cov": "^0.4.0",

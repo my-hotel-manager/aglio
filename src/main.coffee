@@ -1,6 +1,6 @@
 fs = require 'fs'
 path = require 'path'
-drafter = require 'drafter'
+drafter = require 'drafter.js'
 
 INCLUDE = /( *)<!-- include\((.*)\) -->/gmi
 ROOT = path.dirname __dirname
@@ -93,6 +93,7 @@ exports.render = (input, options, done) ->
     benchmark.start 'parse'
     drafter.parse filteredInput, type: 'ast', (err, res) ->
         benchmark.end 'parse'
+        console.log(res)
         if err
             err.input = input
             return done(errMsg 'Error parsing input', err)
