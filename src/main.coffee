@@ -93,7 +93,6 @@ exports.render = (input, options, done) ->
     benchmark.start 'parse'
     drafter.parse filteredInput, type: 'ast', (err, res) ->
         benchmark.end 'parse'
-        console.log(res)
         if err
             err.input = input
             return done(errMsg 'Error parsing input', err)

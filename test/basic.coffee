@@ -45,6 +45,8 @@ describe 'API Blueprint Renderer', ->
             done()
 
     it 'Should render a complex document', (done) ->
+        @timeout 4000
+
         aglio.render blueprint, 'default', (err, html) ->
             if err then return done(err)
 
