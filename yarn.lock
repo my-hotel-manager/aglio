@@ -925,7 +925,7 @@ domutils@1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
-drafter.js@^1.0.0:
+drafter.js@^2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/drafter.js/-/drafter.js-2.6.7.tgz#59c43a8586527340cb35bddc54180559faeef001"
   integrity sha1-WcQ6hYZSc0DLNb3cVBgFWfru8AE=
