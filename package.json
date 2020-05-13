@@ -1,6 +1,6 @@
 {
   "name": "swaglio",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "An API Blueprint renderer with theme support",
   "main": "lib/main.js",
   "bin": {
